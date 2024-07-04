@@ -126,6 +126,8 @@ while op != "4":
         contenido = csv.writer(archivo)
         contenido.writerows(lista_final)
         
+        archivo.close()
+        
 
 
     
